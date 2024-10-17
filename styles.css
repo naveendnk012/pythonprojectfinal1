@@ -1,0 +1,120 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  
+  form input, form textarea, form select, form button {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  form button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #218838;
+  }
+  
+  #task-list .task {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .task.completed {
+    background-color: #e0ffe0;
+    text-decoration: line-through;
+  }
+  
+  .task h3 {
+    margin: 0;
+  }
+  
+  .task p {
+    margin: 5px 0;
+  }
+  
+  .task .category {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .task .actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .task .actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .task .actions .complete-btn {
+    background: #28a745;
+    color: #fff;
+  }
+  
+  .task .actions .delete-btn {
+    background: #dc3545;
+    color: #fff;
+  }
+  
+  .task .actions .edit-btn {
+    background: #007bff;
+    color: #fff;
+  }
+  /* Add Styles for Filters */
+#filters {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .filter-btn {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+  }
+  
+  .filter-btn:hover {
+    background: #0056b3;
+  }
+  
+  
